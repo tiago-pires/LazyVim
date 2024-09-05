@@ -4,6 +4,7 @@ return {
     highlight = { enable = true },
     indent = { enable = true },
     ensure_installed = {
+      "astro",
       "bash",
       "c",
       "css",
@@ -23,20 +24,10 @@ return {
       "regex",
       "toml",
       "tsx",
-      "astro",
       "typescript",
       "vim",
       "vimdoc",
       "yaml",
-    },
-    incremental_selection = {
-      enable = false,
-      keymaps = {
-        init_selection = "<leader><tab>",
-        node_incremental = "<C-space>",
-        scope_incremental = false,
-        node_decremental = "<bs>",
-      },
     },
   },
 }

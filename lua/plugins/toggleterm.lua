@@ -1,13 +1,10 @@
 return {
   "akinsho/toggleterm.nvim",
   version = "*",
-  keys = {
-    { "<c-space>", "<cmd>ToggleTerm<cr>" },
-  },
   config = function()
     require("toggleterm").setup({
       size = 80,
-      open_mapping = [[<c-space>]],
+      open_mapping = [[<c-`>]],
       hide_numbers = true,
       shade_terminals = true,
       start_in_insert = true,
